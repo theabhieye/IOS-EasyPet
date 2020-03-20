@@ -14,7 +14,5 @@ class EditPhotoPhotos: UICollectionViewCell
     @IBOutlet weak var images: UIImageView!
     @IBOutlet weak var removeButton: UIButton!
     @IBOutlet weak var makeCoverButton: UIButton!
-        
-   
-    
+ 
 }
