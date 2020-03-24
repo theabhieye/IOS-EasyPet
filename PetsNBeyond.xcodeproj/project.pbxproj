@@ -17,6 +17,8 @@
 		18932F90242205DE007CA76A /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18932F8F242205DE007CA76A /* ContactUs.swift */; };
 		18C6DED4242092A70063F821 /* LoginWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6DED3242092A70063F821 /* LoginWindow.swift */; };
 		18D48EB32424A0D100D08BD2 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D48EB22424A0D100D08BD2 /* Tags.swift */; };
+		18D72645242913970083E1FA /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D72644242913970083E1FA /* Details.swift */; };
+		18D72647242914200083E1FA /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D72646242914200083E1FA /* PhotoCollectionViewCell.swift */; };
 		18E30B4323F2E11B007DE3EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E30B4223F2E11B007DE3EA /* AppDelegate.swift */; };
 		18E30B4523F2E11B007DE3EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E30B4423F2E11B007DE3EA /* SceneDelegate.swift */; };
 		18E30B4A23F2E11B007DE3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E30B4823F2E11B007DE3EA /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		18932F8F242205DE007CA76A /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
 		18C6DED3242092A70063F821 /* LoginWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindow.swift; sourceTree = "<group>"; };
 		18D48EB22424A0D100D08BD2 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		18D72644242913970083E1FA /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		18D72646242914200083E1FA /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		18E30B3F23F2E11B007DE3EA /* PetsNBeyond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsNBeyond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E30B4223F2E11B007DE3EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E30B4423F2E11B007DE3EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,15 @@
 			path = "Edit Post";
 			sourceTree = "<group>";
 		};
+		18D726432429134E0083E1FA /* DetailsViews */ = {
+			isa = PBXGroup;
+			children = (
+				18D72646242914200083E1FA /* PhotoCollectionViewCell.swift */,
+				18D72644242913970083E1FA /* Details.swift */,
+			);
+			path = DetailsViews;
+			sourceTree = "<group>";
+		};
 		18E30B3623F2E11B007DE3EA = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 				18E30B4223F2E11B007DE3EA /* AppDelegate.swift */,
 				18E30B4423F2E11B007DE3EA /* SceneDelegate.swift */,
 				18E30B4823F2E11B007DE3EA /* Main.storyboard */,
+				18D726432429134E0083E1FA /* DetailsViews */,
 				18D48EB42424A12600D08BD2 /* Edit Post */,
 				18932F8F242205DE007CA76A /* ContactUs.swift */,
 				1875E8482420AB2A00094E90 /* CommanMethod.swift */,
@@ -250,10 +264,12 @@
 				1875E8472420A3DC00094E90 /* SignUpWindow.swift in Sources */,
 				182E7C6E241FB566004FDCF2 /* Extension.swift in Sources */,
 				18D48EB32424A0D100D08BD2 /* Tags.swift in Sources */,
+				18D72645242913970083E1FA /* Details.swift in Sources */,
 				1875E84D2420B38900094E90 /* Onboard_1.swift in Sources */,
 				1875E8492420AB2A00094E90 /* CommanMethod.swift in Sources */,
 				18E30B4523F2E11B007DE3EA /* SceneDelegate.swift in Sources */,
 				18E30B4D23F2E11B007DE3EA /* PetsNBeyond.xcdatamodeld in Sources */,
+				18D72647242914200083E1FA /* PhotoCollectionViewCell.swift in Sources */,
 				1827B73B24237E1500DE37F6 /* EditPhotoPhotos.swift in Sources */,
 				18C6DED4242092A70063F821 /* LoginWindow.swift in Sources */,
 				186F2ED22420E4030049CB68 /* Colors.swift in Sources */,

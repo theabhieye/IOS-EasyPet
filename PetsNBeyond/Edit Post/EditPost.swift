@@ -54,8 +54,8 @@ class EditPost: UIViewController ,UICollectionViewDataSource,UICollectionViewDel
             manageTagCollectionViewLayout()
             PhotoCollectionView.dataSource = self
             PhotoCollectionView.delegate = self
-        tagsCollectionView.dataSource =  self
-        tagsCollectionView.delegate = self
+            tagsCollectionView.dataSource =  self
+            tagsCollectionView.delegate = self
                 // Third party link -   https://github.com/jriosdev/iOSDropDown
                 dropDown.addTarget(self, action: #selector(myTargetFunction), for: .touchDown)
         }

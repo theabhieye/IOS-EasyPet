@@ -29,6 +29,7 @@ class Onboard_1: UIViewController,UIScrollViewDelegate{
     
     func setupScreens()
     {
+        
         for index in 0..<dogsImage.count {
             frame.origin.x = scrollView.frame.size.width * CGFloat(index)
             frame.size = scrollView.frame.size
