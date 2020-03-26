@@ -3,51 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D7A0F6DBB5CD90BB71E8DC08C0DDCD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2474CA6D5B566FBEAB6081DA0DFD27C0 /* Pods-PetsNBeyond-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3333D3F77226C6C797DDB3ABA7C8719F /* Pods-PetsNBeyond-dummy.m */; };
+		426CFE8DF80F73238AE3D9DD8F494C8A /* KMPlaceholderTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F04817FFE42ABA4D617660BF66E51EC2 /* KMPlaceholderTextView-dummy.m */; };
+		44826C94AC2E1EC02CA56BCB3BEC249D /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318D82B2FD21F83C1D37CA44279F1AA /* KMPlaceholderTextView.swift */; };
 		46DD08FB7D6071E99E75ECDBA47E90C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		6762724102132C861217B911E70056ED /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F12160F79C995DDBF05A5EB9E10A1F /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ADFB626C34AA35AC883469526699F8D /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06420FEDB00F0FA3D04EC1433A8C8F6D /* iOSDropDown.swift */; };
-		8D7304A6F2F495D06436494BD99C6763 /* Pods-PetsNBeyond-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE007A1DAF62530CA8EFBA470E43E49 /* Pods-PetsNBeyond-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98B432527ED62540119B6578E2CF1734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		A135A2B3CE9202C23017C034A315EFA6 /* Pods-PetsNBeyond-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3333D3F77226C6C797DDB3ABA7C8719F /* Pods-PetsNBeyond-dummy.m */; };
-		C312131E6526BFB7C1CB92D93D58FCC7 /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4486E25F30C64D4543273658B4913AF /* iOSDropDown-dummy.m */; };
+		5641852CEA574E5872EA71FB3E2876A7 /* Pods-PetsNBeyond-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE007A1DAF62530CA8EFBA470E43E49 /* Pods-PetsNBeyond-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6762724102132C861217B911E70056ED /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F67C518980041D214E51646E9C973A45 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADFB626C34AA35AC883469526699F8D /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545F4E7C9D95C8BE94C33FC9C3CE200 /* iOSDropDown.swift */; };
+		749695499235B80734474C4770F5A42A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		9D1418FA3CE3767345C1B3816C106E73 /* KMPlaceholderTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0445ABB71A65C8E8C47499A990ACC7 /* KMPlaceholderTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C312131E6526BFB7C1CB92D93D58FCC7 /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CD99E0D6FAC6290D4D0FB5A59BE299 /* iOSDropDown-dummy.m */; };
+		C55096A8FA84CA8EDB3C0EE043A21F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		FB1A59DAD92E574036C966A2CD221FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E6C4525D20AC66B6C8701209628780EA /* PBXContainerItemProxy */ = {
+		99DE9FE6557EDF7D3ACE8330241AA9D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
 			remoteInfo = iOSDropDown;
 		};
+		A71DC05D86FD01D252024DADD5A8DADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBBDDE9729D72CBCA5AEAA0FAA019AD;
+			remoteInfo = KMPlaceholderTextView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01226D777570EF828DB7A9F164E10F48 /* Pods_PetsNBeyond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PetsNBeyond.framework; path = "Pods-PetsNBeyond.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06420FEDB00F0FA3D04EC1433A8C8F6D /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		07AF653665BE1B2A325581F99D2E1640 /* KMPlaceholderTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KMPlaceholderTextView.framework; path = KMPlaceholderTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2FB0A13A60FFD1CCC496407467FE75 /* Pods-PetsNBeyond-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PetsNBeyond-frameworks.sh"; sourceTree = "<group>"; };
-		1C880A8E5BE53B1A6359F51346FFB499 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
 		1D7497FCA388E17E1326FC1B754AEDD7 /* Pods-PetsNBeyond.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetsNBeyond.debug.xcconfig"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3333D3F77226C6C797DDB3ABA7C8719F /* Pods-PetsNBeyond-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetsNBeyond-dummy.m"; sourceTree = "<group>"; };
+		41CE21B1C825752843640E134D9AFB43 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B26F5B6C5FCBB5F6F03A0588CD4E671 /* iOSDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.xcconfig; sourceTree = "<group>"; };
 		58E1F681B49A8590A8737BBC978AB0D7 /* Pods-PetsNBeyond-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetsNBeyond-Info.plist"; sourceTree = "<group>"; };
-		61F12160F79C995DDBF05A5EB9E10A1F /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
-		64381A7B6D348EF2F75D3148BB611BF6 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		5F5E93C1DB5A24FD4528289BCEB2E2AE /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		6545F4E7C9D95C8BE94C33FC9C3CE200 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
 		834EB92B44DE41DB6040B2EB3DCC06E0 /* Pods-PetsNBeyond.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetsNBeyond.modulemap"; sourceTree = "<group>"; };
-		864123CA5C9CAE940D6B0881322EF4F4 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
+		84E174BD6A3781E2FDA650A91CF84C6C /* KMPlaceholderTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KMPlaceholderTextView.modulemap; sourceTree = "<group>"; };
 		8CE007A1DAF62530CA8EFBA470E43E49 /* Pods-PetsNBeyond-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetsNBeyond-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4CD99E0D6FAC6290D4D0FB5A59BE299 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		A6302F37AD72D9C76EF223DC6F699043 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
+		B318D82B2FD21F83C1D37CA44279F1AA /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMPlaceholderTextView.swift; path = KMPlaceholderTextView/KMPlaceholderTextView.swift; sourceTree = "<group>"; };
 		B69BA6F9FA57D5A895BEC8F6EF2012A8 /* Pods-PetsNBeyond-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetsNBeyond-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6AE0FD536E66401B92734B4BBB1DE9B /* KMPlaceholderTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPlaceholderTextView-prefix.pch"; sourceTree = "<group>"; };
+		BC0445ABB71A65C8E8C47499A990ACC7 /* KMPlaceholderTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPlaceholderTextView-umbrella.h"; sourceTree = "<group>"; };
+		BD9EB75A70310347BC01A943B3EF59FD /* KMPlaceholderTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMPlaceholderTextView.xcconfig; sourceTree = "<group>"; };
 		DB6920BD236A6863E07571A5096D9D38 /* Pods-PetsNBeyond.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetsNBeyond.release.xcconfig"; sourceTree = "<group>"; };
-		E4486E25F30C64D4543273658B4913AF /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
 		E77D0BB4401A06724CD2DA29E3338160 /* Pods-PetsNBeyond-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetsNBeyond-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6B9DC51AAD96567F17822F07981024C /* iOSDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.xcconfig; sourceTree = "<group>"; };
+		F04817FFE42ABA4D617660BF66E51EC2 /* KMPlaceholderTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMPlaceholderTextView-dummy.m"; sourceTree = "<group>"; };
+		F28A2514FEEE2DE3B3DD3C16741372ED /* KMPlaceholderTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KMPlaceholderTextView-Info.plist"; sourceTree = "<group>"; };
+		F67C518980041D214E51646E9C973A45 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
 		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,11 +81,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C61F9E250FB13DD3BE214768BACFB587 /* Frameworks */ = {
+		4F5D9EF03948129FFEC3CFD73A413752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B432527ED62540119B6578E2CF1734 /* Foundation.framework in Frameworks */,
+				C55096A8FA84CA8EDB3C0EE043A21F8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B418D42A579F7C31B28116815A17566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A0F6DBB5CD90BB71E8DC08C0DDCD8 /* Foundation.framework in Frameworks */,
+				749695499235B80734474C4770F5A42A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +109,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3AF75FF699FF474602DEE960302C4DBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E174BD6A3781E2FDA650A91CF84C6C /* KMPlaceholderTextView.modulemap */,
+				BD9EB75A70310347BC01A943B3EF59FD /* KMPlaceholderTextView.xcconfig */,
+				F04817FFE42ABA4D617660BF66E51EC2 /* KMPlaceholderTextView-dummy.m */,
+				F28A2514FEEE2DE3B3DD3C16741372ED /* KMPlaceholderTextView-Info.plist */,
+				B6AE0FD536E66401B92734B4BBB1DE9B /* KMPlaceholderTextView-prefix.pch */,
+				BC0445ABB71A65C8E8C47499A990ACC7 /* KMPlaceholderTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KMPlaceholderTextView";
+			sourceTree = "<group>";
+		};
 		3F8E32A2B2C5C4C8B29E99520A66C894 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,45 +131,57 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		60E09F58A4B6EF1F34AC349248B764C0 /* Pods */ = {
+		53F3B96DA1B96D02BB1D3BE67C8C056D /* iOSDropDown */ = {
 			isa = PBXGroup;
 			children = (
-				C520F1D897DA31E819719545B43D50A7 /* iOSDropDown */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8A059C6DAC5B78D19D40AAE8CAB66E4F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */,
-				01226D777570EF828DB7A9F164E10F48 /* Pods_PetsNBeyond.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C520F1D897DA31E819719545B43D50A7 /* iOSDropDown */ = {
-			isa = PBXGroup;
-			children = (
-				06420FEDB00F0FA3D04EC1433A8C8F6D /* iOSDropDown.swift */,
-				C65EAA985B419BEB36584893A74F9BE4 /* Support Files */,
+				6545F4E7C9D95C8BE94C33FC9C3CE200 /* iOSDropDown.swift */,
+				7FAA37F01B68FB89977C7CFCE56443E9 /* Support Files */,
 			);
 			name = iOSDropDown;
 			path = iOSDropDown;
 			sourceTree = "<group>";
 		};
-		C65EAA985B419BEB36584893A74F9BE4 /* Support Files */ = {
+		784C0AE36940AF943F036692A373A419 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C880A8E5BE53B1A6359F51346FFB499 /* iOSDropDown.modulemap */,
-				F6B9DC51AAD96567F17822F07981024C /* iOSDropDown.xcconfig */,
-				E4486E25F30C64D4543273658B4913AF /* iOSDropDown-dummy.m */,
-				864123CA5C9CAE940D6B0881322EF4F4 /* iOSDropDown-Info.plist */,
-				64381A7B6D348EF2F75D3148BB611BF6 /* iOSDropDown-prefix.pch */,
-				61F12160F79C995DDBF05A5EB9E10A1F /* iOSDropDown-umbrella.h */,
+				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */,
+				07AF653665BE1B2A325581F99D2E1640 /* KMPlaceholderTextView.framework */,
+				01226D777570EF828DB7A9F164E10F48 /* Pods_PetsNBeyond.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAA37F01B68FB89977C7CFCE56443E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41CE21B1C825752843640E134D9AFB43 /* iOSDropDown.modulemap */,
+				4B26F5B6C5FCBB5F6F03A0588CD4E671 /* iOSDropDown.xcconfig */,
+				A4CD99E0D6FAC6290D4D0FB5A59BE299 /* iOSDropDown-dummy.m */,
+				A6302F37AD72D9C76EF223DC6F699043 /* iOSDropDown-Info.plist */,
+				5F5E93C1DB5A24FD4528289BCEB2E2AE /* iOSDropDown-prefix.pch */,
+				F67C518980041D214E51646E9C973A45 /* iOSDropDown-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+		9CAF24B5D2858D843DBA711451220419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53F3B96DA1B96D02BB1D3BE67C8C056D /* iOSDropDown */,
+				CE22A69F297811046EBA6A6B1A921195 /* KMPlaceholderTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE22A69F297811046EBA6A6B1A921195 /* KMPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B318D82B2FD21F83C1D37CA44279F1AA /* KMPlaceholderTextView.swift */,
+				3AF75FF699FF474602DEE960302C4DBF /* Support Files */,
+			);
+			name = KMPlaceholderTextView;
+			path = KMPlaceholderTextView;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -134,8 +189,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				60E09F58A4B6EF1F34AC349248B764C0 /* Pods */,
-				8A059C6DAC5B78D19D40AAE8CAB66E4F /* Products */,
+				9CAF24B5D2858D843DBA711451220419 /* Pods */,
+				784C0AE36940AF943F036692A373A419 /* Products */,
 				3F8E32A2B2C5C4C8B29E99520A66C894 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -169,6 +224,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		592FC8541D8F0488552366D9B6DE3A2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5641852CEA574E5872EA71FB3E2876A7 /* Pods-PetsNBeyond-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93A905842D7F38038C5AE524E9DF7789 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,17 +240,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1B65A80A0A12D69E9107E663B07E391 /* Headers */ = {
+		FA347E71AD411562334A54AD294E5B3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D7304A6F2F495D06436494BD99C6763 /* Pods-PetsNBeyond-umbrella.h in Headers */,
+				9D1418FA3CE3767345C1B3816C106E73 /* KMPlaceholderTextView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2CBBDDE9729D72CBCA5AEAA0FAA019AD /* KMPlaceholderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DB5ABBDCB43381B8C17AB474491E77 /* Build configuration list for PBXNativeTarget "KMPlaceholderTextView" */;
+			buildPhases = (
+				FA347E71AD411562334A54AD294E5B3C /* Headers */,
+				EB0D2C6B152A14EAF22127728512077A /* Sources */,
+				7B418D42A579F7C31B28116815A17566 /* Frameworks */,
+				951C04517B930070518DADFAEA910EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMPlaceholderTextView;
+			productName = KMPlaceholderTextView;
+			productReference = 07AF653665BE1B2A325581F99D2E1640 /* KMPlaceholderTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A476A331E996DC82BDA1CD0E8A43F8B6 /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
@@ -208,17 +289,18 @@
 		};
 		736CAD8737B33D2D9F659EA90B222851 /* Pods-PetsNBeyond */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C66677059EB714B1952052DA7FA81DDE /* Build configuration list for PBXNativeTarget "Pods-PetsNBeyond" */;
+			buildConfigurationList = 6EFFC390D2FFAA5AFF34C8ABEECDFEE8 /* Build configuration list for PBXNativeTarget "Pods-PetsNBeyond" */;
 			buildPhases = (
-				E1B65A80A0A12D69E9107E663B07E391 /* Headers */,
-				F37AB72720DE3B030E3B3FEDF7C574BA /* Sources */,
-				C61F9E250FB13DD3BE214768BACFB587 /* Frameworks */,
-				31BDCF6710DD73F2FA05441415F4AF88 /* Resources */,
+				592FC8541D8F0488552366D9B6DE3A2B /* Headers */,
+				AC22BE30A3CADB41D9226679E256748D /* Sources */,
+				4F5D9EF03948129FFEC3CFD73A413752 /* Frameworks */,
+				B7F2BA32199484F533894B486BE62842 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F4D1D922F6529660BE6F35B3E0E0BBB7 /* PBXTargetDependency */,
+				BBFD9F388FFFCA44C38898EB5E95806E /* PBXTargetDependency */,
+				9FAC365D84EFCB34FBDDD24CD343A069 /* PBXTargetDependency */,
 			);
 			name = "Pods-PetsNBeyond";
 			productName = "Pods-PetsNBeyond";
@@ -235,7 +317,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -243,25 +325,33 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8A059C6DAC5B78D19D40AAE8CAB66E4F /* Products */;
+			productRefGroup = 784C0AE36940AF943F036692A373A419 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
+				2CBBDDE9729D72CBCA5AEAA0FAA019AD /* KMPlaceholderTextView */,
 				736CAD8737B33D2D9F659EA90B222851 /* Pods-PetsNBeyond */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		31BDCF6710DD73F2FA05441415F4AF88 /* Resources */ = {
+		4F2761F0F0D962265232D9EE899A184E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F2761F0F0D962265232D9EE899A184E /* Resources */ = {
+		951C04517B930070518DADFAEA910EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F2BA32199484F533894B486BE62842 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,29 +370,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F37AB72720DE3B030E3B3FEDF7C574BA /* Sources */ = {
+		AC22BE30A3CADB41D9226679E256748D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A135A2B3CE9202C23017C034A315EFA6 /* Pods-PetsNBeyond-dummy.m in Sources */,
+				2474CA6D5B566FBEAB6081DA0DFD27C0 /* Pods-PetsNBeyond-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D2C6B152A14EAF22127728512077A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426CFE8DF80F73238AE3D9DD8F494C8A /* KMPlaceholderTextView-dummy.m in Sources */,
+				44826C94AC2E1EC02CA56BCB3BEC249D /* KMPlaceholderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F4D1D922F6529660BE6F35B3E0E0BBB7 /* PBXTargetDependency */ = {
+		9FAC365D84EFCB34FBDDD24CD343A069 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSDropDown;
 			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
-			targetProxy = E6C4525D20AC66B6C8701209628780EA /* PBXContainerItemProxy */;
+			targetProxy = 99DE9FE6557EDF7D3ACE8330241AA9D8 /* PBXContainerItemProxy */;
+		};
+		BBFD9F388FFFCA44C38898EB5E95806E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KMPlaceholderTextView;
+			target = 2CBBDDE9729D72CBCA5AEAA0FAA019AD /* KMPlaceholderTextView */;
+			targetProxy = A71DC05D86FD01D252024DADD5A8DADE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		232D6AC5A0769201FCBD8133C3DC7DCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B9DC51AAD96567F17822F07981024C /* iOSDropDown.xcconfig */;
+			baseConfigurationReference = 4B26F5B6C5FCBB5F6F03A0588CD4E671 /* iOSDropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -338,7 +443,7 @@
 		};
 		65F6A4EC6048DDEAED714D2373277408 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B9DC51AAD96567F17822F07981024C /* iOSDropDown.xcconfig */;
+			baseConfigurationReference = 4B26F5B6C5FCBB5F6F03A0588CD4E671 /* iOSDropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -435,7 +540,42 @@
 			};
 			name = Debug;
 		};
-		C80BAE88BCF95A96061A6E7D1036B1C2 /* Release */ = {
+		9B85C456D4252DAB4CC495AE58F5BFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9EB75A70310347BC01A943B3EF59FD /* KMPlaceholderTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView.modulemap";
+				PRODUCT_MODULE_NAME = KMPlaceholderTextView;
+				PRODUCT_NAME = KMPlaceholderTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3A346DF40CE28E1F6818E21890325A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB6920BD236A6863E07571A5096D9D38 /* Pods-PetsNBeyond.release.xcconfig */;
 			buildSettings = {
@@ -474,7 +614,43 @@
 			};
 			name = Release;
 		};
-		E8DA1EE7D74E85A5A91BD6FAE8F4A7C7 /* Debug */ = {
+		D56CA0EB990E323EC2FFA05E48C6B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9EB75A70310347BC01A943B3EF59FD /* KMPlaceholderTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView.modulemap";
+				PRODUCT_MODULE_NAME = KMPlaceholderTextView;
+				PRODUCT_NAME = KMPlaceholderTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB22056F93E830E8B09A64185123739F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D7497FCA388E17E1326FC1B754AEDD7 /* Pods-PetsNBeyond.debug.xcconfig */;
 			buildSettings = {
@@ -575,6 +751,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02DB5ABBDCB43381B8C17AB474491E77 /* Build configuration list for PBXNativeTarget "KMPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B85C456D4252DAB4CC495AE58F5BFC4 /* Debug */,
+				D56CA0EB990E323EC2FFA05E48C6B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -584,20 +769,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6EFFC390D2FFAA5AFF34C8ABEECDFEE8 /* Build configuration list for PBXNativeTarget "Pods-PetsNBeyond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB22056F93E830E8B09A64185123739F /* Debug */,
+				C3A346DF40CE28E1F6818E21890325A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A476A331E996DC82BDA1CD0E8A43F8B6 /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65F6A4EC6048DDEAED714D2373277408 /* Debug */,
 				232D6AC5A0769201FCBD8133C3DC7DCE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C66677059EB714B1952052DA7FA81DDE /* Build configuration list for PBXNativeTarget "Pods-PetsNBeyond" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8DA1EE7D74E85A5A91BD6FAE8F4A7C7 /* Debug */,
-				C80BAE88BCF95A96061A6E7D1036B1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
