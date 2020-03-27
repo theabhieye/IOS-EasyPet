@@ -14,6 +14,7 @@ class BioViewController: UIViewController {
     
     @IBOutlet weak var biographyTextView: KMPlaceholderTextView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         CommanMethod().addBorderToView(bioSubview)
@@ -21,7 +22,6 @@ class BioViewController: UIViewController {
             CGColor(srgbRed: 227.0/255.0, green: 233.0/255.0, blue: 240.0/255.0, alpha: 1.0)
 
         biographyTextView.layer.borderWidth = 1
-        
         
     }
 }

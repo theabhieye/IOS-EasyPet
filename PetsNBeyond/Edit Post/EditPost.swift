@@ -8,10 +8,14 @@
 
 import UIKit
 import iOSDropDown
+import KMPlaceholderTextView
+
 class EditPost: UIViewController ,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
     
     // MARK: IBOutlet variable
     
+    
+    @IBOutlet weak var storyTextview: KMPlaceholderTextView!
     @IBOutlet weak var tagsCollectionView: UICollectionView!
     @IBOutlet weak var mainSubview: UIView!
     @IBOutlet weak var detailSubView: UIView!
@@ -50,7 +54,12 @@ class EditPost: UIViewController ,UICollectionViewDataSource,UICollectionViewDel
     override func viewDidLoad() {
             super.viewDidLoad()
                 
-            managePhotoCollectionViewLayout()
+           storyTextview.layer.borderColor =
+               CGColor(srgbRed: 227.0/255.0, green: 233.0/255.0, blue: 240.0/255.0, alpha: 1.0)
+
+            storyTextview.layer.borderWidth = 1
+
+        managePhotoCollectionViewLayout()
             manageTagCollectionViewLayout()
             PhotoCollectionView.dataSource = self
             PhotoCollectionView.delegate = self

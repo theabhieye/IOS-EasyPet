@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		18150CA7242349C400F24211 /* EditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18150CA6242349C400F24211 /* EditPost.swift */; };
+		181B6018242E4DEE00294C79 /* ReviewSellerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B6017242E4DEE00294C79 /* ReviewSellerVC.swift */; };
+		1822C0AD242DDE79001DEF71 /* FiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822C0AC242DDE79001DEF71 /* FiltersVC.swift */; };
 		1827B73B24237E1500DE37F6 /* EditPhotoPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B73A24237E1500DE37F6 /* EditPhotoPhotos.swift */; };
 		182E7C6E241FB566004FDCF2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E7C6D241FB566004FDCF2 /* Extension.swift */; };
+		1837920D242CE48B00446E5A /* NewListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837920C242CE48B00446E5A /* NewListingVC.swift */; };
 		186F2ED22420E4030049CB68 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F2ED12420E4030049CB68 /* Colors.swift */; };
 		1875E8472420A3DC00094E90 /* SignUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875E8462420A3DC00094E90 /* SignUpWindow.swift */; };
 		1875E8492420AB2A00094E90 /* CommanMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875E8482420AB2A00094E90 /* CommanMethod.swift */; };
@@ -32,8 +35,11 @@
 
 /* Begin PBXFileReference section */
 		18150CA6242349C400F24211 /* EditPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPost.swift; sourceTree = "<group>"; };
+		181B6017242E4DEE00294C79 /* ReviewSellerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSellerVC.swift; sourceTree = "<group>"; };
+		1822C0AC242DDE79001DEF71 /* FiltersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersVC.swift; sourceTree = "<group>"; };
 		1827B73A24237E1500DE37F6 /* EditPhotoPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhotoPhotos.swift; sourceTree = "<group>"; };
 		182E7C6D241FB566004FDCF2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1837920C242CE48B00446E5A /* NewListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListingVC.swift; sourceTree = "<group>"; };
 		186F2ED12420E4030049CB68 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1875E8462420A3DC00094E90 /* SignUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWindow.swift; sourceTree = "<group>"; };
 		1875E8482420AB2A00094E90 /* CommanMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanMethod.swift; sourceTree = "<group>"; };
@@ -114,6 +120,9 @@
 				18E30B4223F2E11B007DE3EA /* AppDelegate.swift */,
 				18E30B4423F2E11B007DE3EA /* SceneDelegate.swift */,
 				18E30B4823F2E11B007DE3EA /* Main.storyboard */,
+				181B6017242E4DEE00294C79 /* ReviewSellerVC.swift */,
+				1822C0AC242DDE79001DEF71 /* FiltersVC.swift */,
+				1837920C242CE48B00446E5A /* NewListingVC.swift */,
 				18DCCCC4242B431000402C0B /* BioViewController.swift */,
 				18D726432429134E0083E1FA /* DetailsViews */,
 				18D48EB42424A12600D08BD2 /* Edit Post */,
@@ -270,7 +279,10 @@
 				18E30B4323F2E11B007DE3EA /* AppDelegate.swift in Sources */,
 				1875E8472420A3DC00094E90 /* SignUpWindow.swift in Sources */,
 				182E7C6E241FB566004FDCF2 /* Extension.swift in Sources */,
+				1837920D242CE48B00446E5A /* NewListingVC.swift in Sources */,
 				18CDA64A242A113A00D06511 /* ReviewTableView.swift in Sources */,
+				1822C0AD242DDE79001DEF71 /* FiltersVC.swift in Sources */,
+				181B6018242E4DEE00294C79 /* ReviewSellerVC.swift in Sources */,
 				18D48EB32424A0D100D08BD2 /* Tags.swift in Sources */,
 				18D72645242913970083E1FA /* Details.swift in Sources */,
 				1875E84D2420B38900094E90 /* Onboard_1.swift in Sources */,
