@@ -16,7 +16,7 @@ class ReviewSellerVC: UIViewController {
         super.viewDidLoad()
         submitButton.setGradientBackground(colorOne: Colors.lightBlue, colorTwo: Colors.darkBlue)
         CommanMethod().addBorderToView(submitButton)
-        submitButton.cornerRadius = 10
+        submitButton.cornerRadius = 20
     }
     
     
